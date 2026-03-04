@@ -17,7 +17,7 @@ export default function Products({ productdata }: any) {
   console.log("productdata", productdata);
   let productslist = productdata;
   return (
-    <section>
+    <section className="grid h-screen grid-cols-1 gap-2 justify-center align-middle items-center sm:grid-cols-1 lg:grid-cols-3 md-grid-cols-2">
       {productslist.map((products: any, i: number) => (
         <ProductsList key={i} products={products} />
       ))}

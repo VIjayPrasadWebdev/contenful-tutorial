@@ -15,3 +15,6 @@ export default function Home() {
     </main>
   );
 }
+
+// SPACE_ID = "n0kyzo4wygi3";
+// ACCESS_TOKEN = "tmqjuT1nIjvk-WDZrKPX4jkoMUDhDPkPy1bW_JTA1nU";

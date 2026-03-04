@@ -20,7 +20,7 @@ export default function Navbar() {
               <li key={i}>
                 <Link
                   className={`${pathname === navlink.href && "text-red-500"}`}
-                  href={`/${navlink.href}`}
+                  href={`${navlink.href}`}
                 >
                   {navlink.label}
                 </Link>
